@@ -1,4 +1,5 @@
 <h1>(pseudo) Glicko Rating Algorithm</h1>
+<img src="https://d7v6meks67904.cloudfront.net/assets/image_asset/image/569/pasted-image-759.jpg" alt="Eduardo Saverin (Andrew Garfield) in The Social Network">
 Ever wondered what that scene from "The Social Network" where Edwardo writes an algorithm on Mark's dorm room window, really meant? The algorithm, popularly a chess rating algorithm has been used over the years many times by networking and dating sites as popular as Tinder among many others. Let's study a version of the algorithm made by me as an interesting side project.
 There are 3 main parameters that I've implemented-
 <ol>
