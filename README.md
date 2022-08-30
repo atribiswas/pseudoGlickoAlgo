@@ -9,5 +9,25 @@ There are 3 main parameters that I've implemented-
 Insert the values to see a graph of all the players (competing with each other) and getting to the top over time
 
 The model is based around social media success and rating over time. So don't be surprised when everyone reaches the top eventually! Monitor how each parameter changes the direction and momentum of the players.
+<br>
+<figure>
+    <img src="img/PGA_1000_2_100.png" alt="test one" ><figcaption> The model outputs the following at erraticness=1000, decrease ratio=2, tests=100</figcaption>
+<figure>
+ 
+<br>
+<br>
+<figure>
+    <img src="img/PGA_250_10_50.png" alt="test two" ><figcaption> The model outputs the following at erraticness=250, decrease ratio=10, tests=50</figcaption>
+<figure>
     
-Thank you for your viewing!
+<br>
+<br>
+<figure>
+    <img src="img/PGA_800_9_75.png" alt="test three" ><figcaption> The model outputs the following at erraticness=800, decrease ratio=9, tests=75</figcaption>
+<figure>
+    
+<br>
+<br>
+<br>
+
+As we can see that the erratic behaviour of the model controls a linear line and adds an element of realism to the program. The decrease ratio controls rapid growth to the top, and enables slow growth. As the number of tests increase however, the sample space increases as well, resulting in a graph that seems to be too rapidly growing (as seen in fig 3) but it is because the timegap is interpolated.
